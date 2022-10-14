@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Roboto+Slab:wght@600&display=swap');
+
+.city {
+    margin-top: 10px;
+    font-style: 'Alkalami', serif;
+    font-weight: 700; 
+}
+
+.boton {
+    color: white;
+    background-color: #FF2222;
+    border: none;
+    border-radius: 5px;
+    width: 30px;
+}
+
+.boton:hover {
+    color: white;
+    background-color: #CB0010;
+}
+
+.box{
+    width: 300px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 12px #222;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(30px);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.data {
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+
+}
+
+.img {
+    object-fit:scale-down;
+    height: 80px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
